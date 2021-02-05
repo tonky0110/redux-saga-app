@@ -1,0 +1,17 @@
+// Action types
+export const INCREMENT = "counter/INCREMENT";
+export const DECREMENT = "counter/DECREMENT";
+export const INCREMENT_IF_ODD = "counter/INCREMENT_IF_ODD";
+export const INCREMENT_ASYNC = "counter/INCREMENT_ASYNC";
+
+export const CANCEL_INCREMENT_ASYNC = "counter/CANCEL_INCREMENT_ASYNC";
+export const COUNTDOWN_TERMINATED = "counter/COUNTDOWN_TERMINATED";
+
+export default {
+  INCREMENT,
+  DECREMENT,
+  INCREMENT_IF_ODD,
+  INCREMENT_ASYNC,
+  CANCEL_INCREMENT_ASYNC,
+  COUNTDOWN_TERMINATED
+};
