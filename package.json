@@ -39,5 +39,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "proxy": {
+    "/api": {
+      "target": "http://localhost:3001"
+    },
+    "/auth": {
+      "target": "http://localhost:3002"
+    },
+    "/images": {
+      "target": "http://localhost:3003"
+    },
   }
 }
